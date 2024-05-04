@@ -7,7 +7,7 @@ function Print() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://192.168.0.101:80/prt_test.htm', {
+        const response = await axios.get('/api/prt_test.htm', {
           params: {
             content: "Welcome to use the impact and thermal printer manufactured by professional POS receipt printer company!",
             Send: "Print Test"
